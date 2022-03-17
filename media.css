@@ -1,0 +1,92 @@
+@media screen and (max-width:728px){
+    .intro-text h4 {
+        padding-top: 38px;
+    }
+    .intro-image{
+        display: none;
+    }
+    h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .contain-1050, .contain-860 {
+        width: 90%;
+    }
+    #timer{
+        margin-top: 10px;
+        font-size: 20px;
+        display: inline-flex;
+    }
+    .intro-text {
+        width: 100%;
+    }
+
+    .intro-image img {
+        width: 100%;
+    }
+
+    .intro-text {
+        font-size: 22px;
+        padding-top:35px;
+    }
+
+    .about-us-cr {
+        display: grid;
+        width: 80%;
+        margin: 0px auto;
+       
+    }
+
+    .about-us-cr .cr {
+        margin-bottom: 50px;
+    }
+
+    .about-us-cr .cr p {
+        width: 100%;
+    }
+
+    .roadmap-steps {
+        display: inherit;
+        width: 80%;
+        margin:0px auto;
+    }
+
+    .roadmap-steps .roadmap-step {
+        margin-bottom: 50px;
+    }
+
+    .hamburg {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        background-color: #0000002b;
+        border-radius: 10px;
+        padding: 10px 0px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .active {
+        display: block;
+    }
+
+    .nav ul {
+        margin-top: 0px;
+        float: left;
+        padding-left: 30px;
+    }
+
+    .nav ul li {
+        display: block;
+        margin: 20px 0px 20px 0px;
+        color: #fff;
+    }
+
+    .nav ul li a {
+        color:#fff;
+    }
+    
+
+}

@@ -1,0 +1,365 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    margin:0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #192432;
+    font-size: 35px;
+    text-align: center;
+    padding:25px 0px;
+}
+
+
+/* CONTAINERS  */
+
+.contain-1050 {
+    width: 1050px;
+    margin:0px auto;
+}
+
+.contain-860 {
+    width: 860px;
+    margin:0px auto;
+}
+
+/* LOGO  */
+
+header {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.logo {
+    background: #5c010045;
+    width: 85px;
+    height: 85px;
+    margin-top: 20px;
+    border-radius: 96px;
+    float: left
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: 5px;
+    left: 18px;
+}
+
+/* NAV  */
+
+.nav {
+    float: right;
+    width: 60%;
+}
+
+.nav ul {
+    float: right;
+    margin-top: 60px;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.nav ul li a {
+    color:white;
+}
+.nav ul li a:hover {
+    color: #b9baff;
+}
+.hamburg {
+    display: none;
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* INTRO */
+
+.intro {
+
+    margin-top:-40px;
+    height: 100%;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+
+}
+
+.intro-text {
+    clear: both;
+    padding-top: 140px;
+    padding-bottom: 150px;
+    color:white;
+    font-size: 28px;
+    width: 50%;
+    float: left;
+}
+
+.intro-text h4 {
+    font-size: 19px;
+    color: #b9baff;
+    padding-top: 35px;
+    display: block;
+    font-weight: 500;
+    
+}
+.intro-text span{
+    color: #ffdd8c;
+}
+.intro-image {
+    float: right
+}
+
+.intro-image img {
+    width:350px;
+    margin-top: 80px;
+}
+
+.image-nube {
+    margin-bottom: -30px;
+    width: -webkit-fill-available;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons img {
+    margin-right: 15px;
+}
+
+
+#timer{
+    margin-top: 10px;
+    font-size: 22px;
+    display: inline-flex;
+}
+#timer span{
+    padding-right: 20px;
+    color: #fea117;
+}
+
+/* MAIN  */
+
+.main {
+    clear: both
+}
+
+/* ABOUT  */
+
+.about-us {
+    padding-top: 50px;
+}
+
+.about-us p {
+    font-size: 19px;
+    line-height: 30px;
+    width: 90%;
+    margin:0px auto;
+}
+.cr p{
+    font-size: 17px;
+}
+
+.about-us-cr {
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-around
+}
+
+.about-us-cr img {
+    margin-bottom: 20px;
+}
+
+.about-us-cr h3 {
+    padding-bottom: 10px;
+    color:#192432;
+    font-size: 22px;
+}
+
+.about-us-cr p {
+    width: 90%;
+}
+
+/* ROADMAP */
+#roadmap{
+    color:#ffdd8c;
+}
+.roadmap {
+    overflow: hidden;
+    padding: 40px 0px 80px 0px;
+    display: flex;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+.roadmap-steps {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+
+.roadmap-step h3 {
+    font-size: 20px;
+
+    color: #b9baff;
+    padding-bottom: 30px;
+}
+
+.roadmap-step ul {
+    margin-bottom: 25px;
+    font-size: 17px;
+    color: #fff;
+    padding-left: 15px;
+    list-style-type: none;
+    
+}
+
+.roadmap-step ul li {
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+
+/* TOKENOMICS */
+.tokenomics {
+    padding:60px 0px;
+}
+
+.tokenomics-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.tokenomics-card {
+    display: block;
+    padding:15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 37px 8px rgb(0 0 0 / 6%);
+    -moz-box-shadow: 0px 0px 37px 8px rgba(0,0,0,0.06);
+    box-shadow: 0px 0px 37px 8px rgb(0 0 0 / 6%);
+    width: 210px;
+    margin-bottom: 30px;
+    
+}
+
+.tokenomics-card h3 {
+    color: #323232;
+    font-size: 19px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.tokenomics-card p {
+    color: #ffa117;
+    font-size: 19px;
+}
+
+/* FAQS */
+#faqs{
+    color:#ffdd8c;
+}
+.faqs {
+    overflow: hidden;
+    padding: 40px 0px 80px 0px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+.faqs-list {
+    margin-top: 30px;
+}
+
+.faqs-list .faq {
+}
+
+.faqs-list .faq h3 {
+    color: #fff;
+    font-size: 19px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.faqs-list .faq h3 img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.faqs-list .faq p {
+    font-size: 16px;
+    display: none;
+    margin-bottom: 30px;
+    color: #e7e7e7;
+}
+
+.active p {
+    display: block!important;
+}
+
+.active h3 img {
+    transform: rotate(180deg)!important;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding:30px 0px;
+    color: #858585;
+}
+
+.center{
+    text-align: center;
+}
+
+#tg{
+    width: 22px;
+    position: relative;
+    top: -5px;
+}
+
+.cr img {
+    height: 70px;
+}
+
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .cr{
+        width: 33.33%;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
